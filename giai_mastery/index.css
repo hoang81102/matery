@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+hr {
+    margin: 10px;
+    border: 0,5;
+}
+.clear {
+    clear: both;
+}
+.header {
+    padding: 20px 0 20px 150px;
+}
+.logo{
+    display: inline;
+}
+.logo i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(11, 11, 73);
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+}
+.logo p{
+display: inline;
+font-weight: bolder ;
+font-size: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.header li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.header li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0 0 0 10px;
+}
+.header span{
+    font-size: 30px;
+}
+.carousel{
+    background-image:url(images/2.jpg);
+    height: 90vh;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center top ;
+}
+.activities{
+max-width: 1000px;
+width: 80%;
+margin: auto;
+}
+.activities_container{
+    margin-top: 80px;
+}
+.activities_title{
+    width: 50%;
+    float: left;
+    padding: 0 10px ;
+
+}
+.activities_title h2{
+        font-size: 30px;
+            padding: 10px;
+
+}
+.activities_title p{
+    color: rgb(165, 164, 164);
+    padding: 10px;
+    
+}
+.activities_img{
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+.activities_img img{
+    width: 100%;
+}
+.activities_title button{
+     background: rgb(243, 189, 9);
+    margin: 10px;
+    padding: 10px 20px;
+border: none ;
+
+}
+.activities_numb{
+    background: rgb(238, 237, 237);
+    padding: 60px 0;
+    margin-top: 50px;
+ 
+}
+.activities_numb_item span{
+ width: 60%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+}
+.activities_numb_item h2{
+    width: 35%;
+    float: left;
+    font-size: 40px;
+    margin-right: 10px;
+    text-align: center;
+    
+
+}
+ .activities_list{
+    padding-bottom: 40px;
+    margin-top: 50px;
+} 
+.activities_numb_item{
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+.vvv{
+    background-color: white;
+    padding: 10px;
+    float: left;
+    width: 25%;
+} 
+.activities_list_item{
+   text-align: center;
+   padding: 30px 30px;
+    background-color: rgb(11, 11, 73);
+   font-size: 20px;
+   color: white;
+   
+}
+.activities_content{
+    padding: 20px ;
+        background: rgb(238, 237, 237);
+
+}
+.activities_content_father{
+            padding: 10px;
+}
+.activities_content_son{
+        padding: 10px;
+width: 50%;
+float: left;
+}
+.activities_content_son h1{
+    padding: 20px;
+}
+.activities_content_list{
+        background-color: white;
+}
+.activities_content_button{
+        padding: 20px;
+    }
+.activities_content_item{
+            width: 100%;
+            background: white;
+}
+.activities_content_item{
+    padding: 20px 20px;
+}
+.activities_content_item_i{
+        float: left;
+        width: 35%;
+}
+.activities_content_item_i img{
+    width: 100%;
+        border-radius: 5px;
+        
+        
+}
+.activities_content_item_nd{
+    width: 65%;
+    float: left;
+}
+.activities_content_item_nd span{
+        color: rgb(165, 164, 164);
+        padding:  10px;
+}
+.activities_content_item_nd h3{
+            padding: 10px;
+}
+.activities_content_item_nd p {
+                padding: 10px;
+}
+.activities_content_button{
+    text-align: right;
+
+}
+.activities_content_button button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: rgb(243, 189, 9); 
+border: none;
+font-weight: 700;
+margin-right: -21px;
+}
+.content {
+    width: 35%;
+        float: left;
+            padding: 10px 20px;
+}
+.card {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.card__top {
+    background: rgb(243, 189, 9);    padding: 20px;
+    border-radius: 5px ;
+}
+
+
+.card__bottom {
+    background-color: rgb(11, 11, 58);
+    padding: 10px 20px;
+    border-radius: 5;
+color: white;}
+.activities_content_item_n span{
+    color: rgb(6, 6, 179);
+    padding: 10px;
+    
+}
+.footer{
+    background-color: rgb(11, 11, 73);
+padding: 10px;}
+.footer_son{
+    width: calc(100% / 30px);
+    padding: 50px;
+    float: left;
+    color: white;
+            text-align: left;
+}
+.footer_fa{
+      padding: 10px;
+    }
+.footer_son_content a{
+    color: white;
+        padding: 10px;
+    
+}
+.footer_son_content i{
+    color: rgb(200, 200, 21);
+        padding: 10px;
+}
+.footer_son_content p{
+            padding: 10px;
+}
+.n{
+    color: white;
+}
